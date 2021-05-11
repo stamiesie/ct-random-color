@@ -16,7 +16,7 @@ export default class RandomColor extends Component {
     }
 
     componentDidMount = () => {
-        this.interval = setInterval(this.colorChange, 500);
+        this.interval = setInterval(this.colorChange, 300);
         }
 
     render() {

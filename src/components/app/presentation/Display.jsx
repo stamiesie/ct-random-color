@@ -6,7 +6,7 @@ import styles from '/src/styles.css';
 
 const Display = ({ color }) => (
 <>
-<div className={styles.color} style={{backgroundColor: color, height:'400px', width:'400px'}}></div>
+<div className={styles.color} style={{backgroundColor: color, height:'150px', width:'150px'}}></div>
 </>
 );
 
